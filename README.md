@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Math Magicians\] ](#-math-magicians-)
+- [📖 Book Store ](#-math-magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [ Bookstore ] <a name="about-project"></a>
+# 📖  Bookstore <a name="about-project"></a>
 
-**[ Bookstore ]** Is my second react project.
+**Bookstore** Is my second react project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -91,37 +91,14 @@
 **In order to run this project you need:**
 
 - ✔ [Git](https://git-scm.com/downloads) installed in your machine.
-- ✔ Sign in or sign up to your [Github](https://github.com/) account.
 - ✔ A professional editer such as [VS Code](https://code.visualstudio.com/download).
 - ✔ An Updated web browser such as Google Chrome, you can download it from [here](https://www.google.com/chrome/).
 - ✔ [Node.js](https://nodejs.org/en/download) installed in your machine.
-- ✔ Stylelint
-- ✔ ESLint
-- ✔ WebPack
-
-```sh
-npm init -y
-npm install --save-dev hint@7.x
-npx hint .
-```
-
-- ✔ Stylelint
-
-```sh
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
-
-- ✔ ESLint
-
-```sh
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-```
 
 ### Setup
 
 - Clone this [repository](https://github.com/PrinceBadru/Bookstore) to your desired folder:
 
-- Example commands:
 
 ```sh
   cd [YOUR FOLDER]
@@ -142,7 +119,7 @@ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-i
 
 ```sh
  cd [YOUR FOLDER]
- git clone https://github.com/PrinceBadru/Bookstore
+ npm start
 ```
 
 ### Run tests
@@ -158,7 +135,12 @@ npx eslint .
 ```
 ### Deployment
 
-**This project is deployed by the author, no permission for deployment by any other client.**
+**This project can be deployed in any localhost or server**
+
+```sh
+ cd [YOUR FOLDER]
+ npm build
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
