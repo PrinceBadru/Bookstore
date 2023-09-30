@@ -11,22 +11,22 @@ body {
 
 nav {
   display: flex;
-  padding: 20px;
+  padding: 22px;
   margin: 50px 6%;
-  border-radius: 8px;
+  border-radius: 7px;
   background-color: #fff;
   box-shadow: -1px 8px 22px -6px #e4e1e1;
 }
 
 .nav {
   display: flex;
-  gap: 60px;
+  gap: 62px;
 }
 
 #imp {
   color: #3a86ff;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 #imp2 {
@@ -55,38 +55,38 @@ a {
 
 h2 {
   color: rgb(146, 145, 145);
-  margin: 0 190px;
+  margin: 0 191px;
 }
 
 .input-book {
-  width: 600px;
-  padding: 16px;
+  width: 606px;
+  padding: 17px;
   margin: 30px 25px 20px 140px;
-  font-size: 14px;
+  font-size: 15px;
   color: #90979e;
-  height: 50px;
-  border-radius: 4px;
+  height: 51px;
+  border-radius: 5px;
   border: 1px solid rgb(224, 221, 221);
   outline: none;
 }
 
 .input-author {
   width: 240px;
-  padding: 16px;
-  margin-right: 20px;
-  font-size: 14px;
+  padding: 15px;
+  margin-right: 19px;
+  font-size: 15px;
   color: #90979e;
-  height: 50px;
-  border-radius: 4px;
+  height: 51px;
+  border-radius: 5px;
   border: 1px solid rgb(224, 221, 221);
   outline: none;
 }
 
 .select-cata {
-  font-size: 14px;
-  height: 50px;
-  width: 200px;
-  margin-right: 20px;
+  font-size: 15px;
+  height: 49px;
+  width: 201px;
+  margin-right: 21px;
   color: #5a5d60;
   border-radius: 4px;
   border: 1px solid rgb(224, 221, 221);
@@ -94,11 +94,11 @@ h2 {
 }
 
 .addbtn {
-  font-size: 14px;
-  height: 50px;
+  font-size: 15px;
+  height: 51px;
   width: 160px;
   color: white;
-  border-radius: 4px;
+  border-radius: 5px;
   border: 1px solid rgb(224, 221, 221);
   outline: none;
   background-color: #3a86ff;
@@ -110,7 +110,7 @@ h2 {
   display: flex;
   padding: 30px;
   margin: 20px 190px;
-  border-radius: 8px;
+  border-radius: 7px;
   background-color: #fff;
   box-shadow: -1px 8px 22px -6px #e4e1e1;
 }
@@ -124,13 +124,13 @@ h2 {
 }
 
 .book-title {
-  padding-top: 4px;
-  font-size: 20px;
+  padding-top: 5px;
+  font-size: 21px;
 }
 
 .book-author {
   color: #5aa9e6;
-  font-size: 14px;
+  font-size: 15px;
   padding-bottom: 20px;
 }
 
@@ -138,18 +138,18 @@ h2 {
   color: #5aa9e6;
   border: none;
   background-color: #fff;
-  padding-right: 20px;
+  padding-right: 21px;
   cursor: pointer;
 }
 
 .compelet {
-  padding-left: 350px;
-  padding-top: 20px;
+  padding-left: 349px;
+  padding-top: 21px;
   text-align: justify;
 }
 
 .precent {
-  font-size: 26px;
+  font-size: 27px;
 }
 
 h5 {
@@ -157,25 +157,25 @@ h5 {
 }
 
 .current-part {
-  padding-left: 180px;
+  padding-left: 181px;
   text-align: justify;
 }
 
 .current-chapter {
   color: #b4b9bd;
-  font-size: 14px;
-  padding-bottom: 8px;
+  font-size: 15px;
+  padding-bottom: 9px;
 }
 
 h4 {
   color: rgb(53, 52, 52);
-  padding-bottom: 20px;
+  padding-bottom: 19px;
 }
 
 .upd-btn {
-  font-size: 12px;
+  font-size: 11px;
   width: 180px;
-  height: 30px;
+  height: 31px;
   color: rgb(211, 208, 208);
   border-radius: 4px;
   border: 1px solid rgb(224, 221, 221);
@@ -192,7 +192,7 @@ h4 {
   cursor: pointer;
   height: 60px;
   margin: 50px 640px;
-  padding: 20px;
+  padding: 21px;
   color: rgb(211, 208, 208);
   border-radius: 4px;
   border: 1px solid rgb(224, 221, 221);
