@@ -119,13 +119,13 @@ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-i
 
 ### Setup
 
-- Clone this [repository](https://github.com/sadaf-Daneshgar/bookstore) to your desired folder:
+- Clone this [repository](https://github.com/PrinceBadru/Bookstore) to your desired folder:
 
 - Example commands:
 
 ```sh
   cd [YOUR FOLDER]
-  git clone https://github.com/sadaf-Daneshgar/bookstore.git
+  git https://github.com/PrinceBadru/Bookstore
 ```
 
 ### Install
@@ -142,23 +142,20 @@ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-i
 
 ```sh
  cd [YOUR FOLDER]
- git clone https://github.com/sadaf-Daneshgar/bookstore.git
+ git clone https://github.com/PrinceBadru/Bookstore
 ```
 
 ### Run tests
-
 1. Stylelint
 
 ```
 npx stylelint "**/*.{css,scss}"
 ```
-
 2. ESLint ☑
 
 ```
 npx eslint .
 ```
-
 ### Deployment
 
 **This project is deployed by the author, no permission for deployment by any other client.**
@@ -169,11 +166,10 @@ npx eslint .
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Sadaf Daneshgar**
+👤 **BADRU NDAWULA**
 
-- 👤 GitHub: [@Sadaf-Daneshgar](https://github.com/sadaf-Daneshgar)
-- 👤 Twitter: [@SadafDaneshgar](https://twitter.com/SadafDaneshgar)
-- 👤 LinkedIn: [Sadaf Daneshgar](https://www.linkedin.com/in/sadaf-daneshgar-00480a242/)
+- GitHub: [@PrinceBadru]
+- Twitter: [@NdawulaBadru]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,8 +179,6 @@ npx eslint .
 
 - [ ] **[Unit test]**
 - [ ] **[Responsive]**
-- [ ] **[Deployment]**
-- [ ] **[Use developer local storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,6 +214,6 @@ If you like this project, kindly drop a start for the [repository](https://githu
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
