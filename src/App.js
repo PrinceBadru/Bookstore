@@ -1,27 +1,21 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/nav';
-import BookList from './components/bookList';
 import Category from './components/Category';
-import BookDiv from './components/bookForm';
+import Books from './components/Books';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Routes>
-        <Route
-          path="/"
-          element={(
-            <>
-              <BookList />
-              <BookDiv />
-            </>
-          )}
-        />
-        <Route path="/category" element={<Category />} />
-      </Routes>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Navbar />
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <Books />
+          }
+      />
+      <Route path="/category" element={<Category />} />
+    </Routes>
+  </div>
+);
 
 export default App;

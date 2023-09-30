@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Book from './Book';
 
-function BookList() {
+const BookList = () => {
   const [bookStatus, setBookStatus] = useState({});
 
   const listBooks = [
@@ -34,6 +34,6 @@ function BookList() {
       ))}
     </>
   );
-}
+};
 
 export default BookList;
