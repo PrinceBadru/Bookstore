@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import BookList from './components/BookList';
-import Category from './components/category';
-import BookDiv from './components/BookForm';
+import Navbar from './components/nav';
+import BookList from './components/bookList';
+import Category from './components/Category';
+import BookDiv from './components/bookForm';
 
 function App() {
   return (
