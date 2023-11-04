@@ -1,24 +1,44 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addBook } from '../redux/books/booksSlice';
 
-const BookDiv = () => (
-  <div className="contanier">
-    <h2>ADD NEW BOOK</h2>
-    <form>
-      <input type="text" placeholder="Book Title..." className="input-book" />
-      <input type="text" placeholder="Book Author..." className="input-author" />
-      <select className="select-cata">
-        <option value="Category" selected>
-          Category
-        </option>
-        <option value="Fiction">Fiction</option>
-        <option value="General">General</option>
-        <option value="Amazing">Amazing</option>
-      </select>
-      <button type="button" className="addbtn">
-        ADD BOOK
-      </button>
-    </form>
-  </div>
-);
+const BookForm = () => {
+  const dispatch = useDispatch();
+  const [newBook, setNewBook] = useState({ title: '', author: '', category: '' });
 
-export default BookDiv;
+  const handleAddBook = () => {
+    dispatch(addBook(newBook));
+    setNewBook({ title: '', author: '', category: '' });
+  };
+
+  return (
+    <div>
+      <h2>Add a New Book</h2>
+      <form>
+        <input
+          type="text"
+          placeholder="Title"
+          value={newBook.title}
+          onChange={(e) => setNewBook({ ...newBook, title: e.target.value })}
+        />
+        <input
+          type="text"
+          placeholder="Author"
+          value={newBook.author}
+          onChange={(e) => setNewBook({ ...newBook, author: e.target.value })}
+        />
+        <input
+          type="text"
+          placeholder="Category"
+          value={newBook.category}
+          onChange={(e) => setNewBook({ ...newBook, category: e.target.value })}
+        />
+        <button type="button" onClick={handleAddBook}>
+          Add Book
+        </button>
+      </form>
+    </div>
+  );
+};
+
+export default BookForm;
