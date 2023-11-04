@@ -1,6 +1,6 @@
 import React from 'react';
-import BookList from './bookList';
-import BookForm from './bookForm';
+import BookList from './BookList';
+import BookForm from './BookForm';
 
 const Home = () => (
   <div>
