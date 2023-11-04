@@ -1,38 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useSelector } from 'react-redux';
 import Book from './Book';
 
 const BookList = () => {
-  const [bookStatus, setBookStatus] = useState({});
-
-  const listBooks = [
-    {
-      id: 1, category: 'general', bookTitle: 'Small Book 1', bookAuthor: 'Sadaf',
-    },
-    {
-      id: 2, category: 'general', bookTitle: 'Small Book 2', bookAuthor: 'Sadaf',
-    },
-  ];
-
-  const toggleBookStatus = (id) => {
-    setBookStatus((prevStatus) => ({
-      ...prevStatus,
-      [id]: !prevStatus[id],
-    }));
-  };
+  const books = useSelector((state) => state.books);
 
   return (
-    <>
-      {listBooks.map((book) => (
-        <Book
-          key={book.id}
-          category={book.category}
-          bookTitle={book.bookTitle}
-          bookAuthor={book.bookAuthor}
-          isCompleted={bookStatus[book.id] || false}
-          toggleStatus={() => toggleBookStatus(book.id)}
-        />
+    <div className="book-list">
+      {books.map((book) => (
+        <Book key={book.item_id} book={book} />
       ))}
-    </>
+    </div>
   );
 };
 
